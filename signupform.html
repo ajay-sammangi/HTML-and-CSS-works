@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signupform</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/signupform.css">
+</head>
+<body>
+    <form>
+    <div class="maincard">
+       <div class="card">
+            <h1 class="heading">Sign Up Form</h1>
+            <div class="formgroup">
+               <div class="databox">
+                    <label class="data">Name<label>
+                </div>      
+                <input type="text" placeholder="username" class="inputbox"/>
+            </div>
+            <div class="formgroup">
+                <div class="databox">
+                    <label class="data">Password</label>
+                </div>      
+                <input type="password"  class="inputbox"/>
+            </div>    
+            <p class="maxlength">max 16 characters</p>
+            <div class="formgroup">
+                <div class="databox">
+                    <label class="data">Confirm Password</label>
+                </div>      
+                <input type="password"  placeholder="Re-type password" class="inputbox"/>
+            </div>
+            <div class="formgroup">
+                <div class="databox">
+                    <label class="data">Gender</label>
+                </div>      
+                <input type="radio" id="gender" name="gender" class="radiobox">
+                <label for="gender" class="datatext">Male</label>
+                <input type="radio" id="gender" name="gender" class="radiobox">
+                <label for="gender" class="datatext">Female</label>
+            </div>
+            <div class="formgroup">
+                <div class="databox">
+                    <label class="data">DOB</label>
+                </div>      
+                <input type="date" id="birthday" name="birthday" class="inputbox">
+            </div>
+
+            <div class="formgroup">
+                <div class="databox">
+                    <label class="data">Photo</label>
+                </div>      
+                <input type="file" placeholder="No file chosen" class="photobox">
+            </div>
+            <div class="address">
+                <div class="databox">
+                    <label class="data">Address</label>
+                </div>      
+                <textarea class="addressbox" placeholder="default text"></textarea>
+            </div>
+            <div class="formgroup">
+                <div class="databox">
+                    <label class="data">Country</label>
+                </div>      
+                <select class="country">
+                    <option>India</option>
+                    <option>SriLanka</option>
+                    <option>Germany</option>
+                </select>
+            </div>
+            <div class="formgroup">
+                <div class="databox">
+                     <label class="data">Mobile Number</label>
+                 </div>      
+                 <input type="text" placeholder="Mobile Number" class="inputbox"/>
+             </div>
+             <div class="formgroup">
+                <div class="databox">
+                     <label class="data">Email Id</label>
+                 </div>      
+                 <input type="Email" placeholder="user@domain.com" class="inputbox"/>
+             </div>
+             <div class="address">
+                <div class="databox">
+                    <label class="data">Languages Known</label>
+                </div>      
+                <select class="languages" multiple>
+                    <option>Telugu</option>
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+            </div>
+            <div class="formgroup">
+                <div class="databox">
+                     <label class="data">Check the box</label</label>
+                 </div> 
+                 <div class="check">     
+                    <input type="checkbox" id="check">
+                </div>
+                 <label for="check" class="checklabel">I accept the criteria</label>
+             </div>
+            <button class="btn-submit">Submit</button>
+       </div>
+    </div>
+    </form>
+</body>
+</html>

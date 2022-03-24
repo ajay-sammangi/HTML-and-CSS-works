@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.maincard{
+    background-color: lightgray;
+    height: 750px;
+}
+.card{
+    margin: auto;
+    height: 730px;
+    width: 800px;
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.formgroup{
+    background-color: white ;
+    margin-top: 10px;
+    height: 36px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex: row;
+    /* justify-content: center; */
+}
+.databox{
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.data{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+    align-items: right;
+}
+:focus{
+    outline-color:blue ;
+}
+
+.inputbox{
+    padding-left: 10px;
+    margin-left: 30px;
+    width: 450px;
+    height: 30px;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #d3d3d3;
+    
+    
+}
+.maxlength{
+    font-family: "Roboto";
+    font: 14px;
+    margin-top: 5px;
+    padding-left: 205px;
+    color:gray;
+}
+.radiobox{
+    margin-left: 30px;
+    height: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.datatext{
+    margin-left: 5px;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 400;
+}
+.photobox{
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-left: 30px;
+    width: 450px;
+    height: 28px;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #d3d3d3;
+}
+.address{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.addressbox{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 30px;
+    width: 450px;
+    height: 40px;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #d3d3d3;
+}
+.country{
+    padding-left: 10px;
+    margin-left: 30px;
+    width: 465px;
+    height: 33px;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #d3d3d3;
+}
+.languages{
+    padding-left: 10px;
+    margin-left: 30px;
+    width: 465px;
+    height: 70px;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #d3d3d3;
+}
+.check{
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #d3d3d3;
+    background-color: lightgray;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 0px;
+}
+.checklabel{
+    padding-left: 10px;
+    margin-left: 0px;
+    width: 420px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 2px solid #d3d3d3;
+}
+.btn-submit{
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    font-family: "Roboto";
+    font-size: 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
