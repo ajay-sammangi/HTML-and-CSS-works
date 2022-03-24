@@ -1,0 +1,426 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper{
+    height:100vh;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+}
+.sidemenu{
+    width: 240px;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.page-content{
+    height: 100%;
+    width: calc(100% - 240px);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+/* sidemenu */
+.fieldbox:hover{
+    color: white;
+    background-color: #172d56;
+}
+.fieldbox{
+    padding: 15px 0px 20px 15px;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+}
+.menufieldbox{
+    padding: 10px 0px 10px 15px;
+    position: relative;
+    background-color: #172d56;
+    color: #ffffff;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+}
+.profilefieldbox{
+    padding: 10px 0px 10px 15px;
+    position: relative;
+    background-color: #ffffff;
+    color: black;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-left: 3px solid transparent;
+    text-decoration: none;
+}
+.menu-logo{
+    height: 30px;
+    width: 30px;
+}
+.profilebox{
+    margin-right: 14px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color:skyblue;
+}
+.profiledata{
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 300;
+ }
+.profile-image{
+    padding-top: 6px;
+    padding-left: 8px;
+    font-size: 28px;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    padding-right: 20px;
+}
+.ecommerce-logo{
+    font-size: 20px;
+    padding-right: 19px;
+}
+.heading{
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+ }
+.highlight{
+    margin-left: 15px;
+    margin-right: 0px;
+    font-family: "Roboto";
+    font-size: 24px;
+     font-weight: 700;
+}
+.arrow{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+ }
+/* horizontal-menu */
+.menu-highlight:hover{
+    color: white;
+    background-color: #172d56;
+}
+.menu-highlight{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horizontal-menu{
+    background-color: white;
+    width: calc(100%-240px);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.slider-logo{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.horizontal-logo{
+    padding-left: 35px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.leftbox{
+     text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.left{
+    float: left;
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+}
+.menu-data{
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+.right{
+    position: relative;
+    float: right;
+    width: 50%;
+     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.rightbox{
+    float: right;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+     align-items: center;
+}
+.search{
+    text-indent: 10px;
+    height: 35px;
+    width: 280px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: 2px solid #d3d3d3;
+}
+.search-image{
+    position:absolute;
+    font-size: 24px;
+    right: 20px;
+    bottom: 10px;
+}
+.menu-imagebox{
+    margin-right: 14px;
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: skyblue;
+}
+.menu-image{
+    padding-top: 6px;
+    padding-left: 8px;
+    font-size: 28px;
+}
+.myaccount{
+    position: absolute;
+    right: 8px;
+    width: 180px;
+    height: 40px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+ }
+ .menu-arrow{
+    font-size: 20px;
+    right: 25px;
+ }
+.data{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300; 
+    padding-left: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+    color:black;
+}
+/* logocard-section */
+.logocard-group{
+    width: calc(100%-240px);
+    background-color:#f6f8fa;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 30px 10px;
+}
+.logocard-heading{
+    font-family: "Roboto";
+    font-size: 20px;
+    padding: 10px 10px 10px 30px;
+}
+.logocard{
+    align-items: center;
+     display: flex;
+    flex-direction: row;
+     align-items: center;
+     padding: 10px 10px 20px 10px;
+}
+.single-logocard{
+    width: 31%;
+    height: 250px;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px 0px 10px 0px;
+    align-items: center;
+    box-shadow: 6px 6px 8px 3px #00000014;
+}
+.cardlogo{
+    font-size:50px;
+    color: blue;
+ }
+.logo-heading{
+    font-family: "Roboto";
+    font-size: 25px;
+    color: black;
+}
+.logo-paragraph{
+    font-family: "roboto";
+    font-size: 18px;
+    color: black;
+    padding:15px; 
+    text-align: center;
+}
+.logo-link{
+    font-family: "roboto";
+    font-size: 18px;
+    padding:15px; 
+    align-items: center;
+}
+/* bottomcard */
+.bottomcard{
+    width: calc(100%-240px);
+    align-items: center;
+    background-color: #f6f8fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px 10px 10px;
+}
+.bottom-logocard{
+    position: relative;
+    width: 31%;
+    height: 235px;
+    margin-top: 40px;
+    margin-left: 1%;
+    margin-right:1% ;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top:10px;
+    align-items: center;
+    box-shadow: 6px 6px 8px 3px #00000014;
+}
+.bottom-logo{
+    border-radius:40px;
+    margin-top:-30px;
+    height: 100px;
+    width: 100px;
+    background-color: #555;
+}
+.bottom-image{
+    position: absolute;
+    top: -50px;
+    height: 90px;
+    width: 90px;
+    padding-bottom: 20px;
+}
+.bottom-heading{
+    padding-top: 28px;
+    color:blue;
+    font-family: "Roboto";
+    font-size: 22px;
+}
+.bottom-paragraph{
+    padding-top: 10px;
+    font-family: "Roboto";
+    font: 18px;
+    color: black;
+}
+.bottom{
+    width: 400px;
+    height: 40px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bottomcard-logo{
+    padding-left:10px;
+    padding-right: 10px;
+    font-size: 23px;
+    color: black;
+}
+/* table */
+.tablebox{
+    width: calc(100%-240px);
+    padding: 4%;
+}
+.table-heading{
+    font-family: "Roboto";
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+table{
+    width: 100%;
+    border-radius: 10px;
+    border-spacing: 0px;
+    font-family: "Roboto";
+    font-size: 24px;
+    border:1px solid #d3d3d3;
+}
+th:first-of-type{
+    border-top-left-radius: 10px;
+}
+th:last-of-type{
+    border-top-right-radius: 10px;
+}
+tr:last-of-type td:last-of-type{
+    border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type{
+    border-bottom-right-radius: 10px ;
+}
+th,td {
+    border:1px solid #d3d3d3;
+    padding: 10px;
+    text-align: center;
+  }
+td{
+    font-family: "Roboto";
+    font-size: 20px;
+  }
+tr:hover {
+    color: white;
+    background-color: #172d56;
+}
+.progress{
+    height: 10px;
+    width: auto;
+    border: 0px solid black;
+    border-radius: 20px;
+    background-color: #d3d3d3;
+}
+  .colorbox{
+    height: 10px;
+    width: 70%;
+    border: 0px solid;
+    border-radius: 20px;
+  }
+  .colorbox1{
+    background-color: cyan;
+  }
+  .colorbox2{
+    background-color: green;
+  }
+  .colorbox3{
+    background-color: purple;
+  }
+  .colorbox4{
+    background-color: blue;
+  }
+  .colorbox5{
+    background-color: brown;
+  }
+  .colorbox6{
+    background-color: orange;
+  }
