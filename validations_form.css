@@ -1,0 +1,17 @@
+.bg-container{
+    background-color: #d3d3d3;
+}
+.container{
+    width: 60%;
+    background-color: #ffffff;
+}
+.display-text{
+    font-family: "Roboto";
+    font-size: 14px;
+    color: red;
+    /* text-align: center; */
+    margin-top: 1px;
+}
+.add{
+    border-color: red;
+}
