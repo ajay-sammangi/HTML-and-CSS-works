@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/loginpage1.css">
+    <link rel="stylesheet" href="/loginpage2.css">
+    <link rel="stylesheet" href="/signupform.css">
+    <link rel="stylesheet" href="/table.css">
+    <link rel="stylesheet" href="/validations_form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b5305a0eaf.js" crossorigin="anonymous"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="/index.js"></script>
+    <script src="/validations_form.js"></script>
+    <script src="/validations_regex.js"></script>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="sidemenu"> 
+            <div class="menufieldbox">
+                <img src="/images/Mobigesture.png" class="menu-logo"/>
+                <p class="heading mb-0">
+                <span class="highlight">Mobi</span>Gesture</p>
+            </div>
+            <li class="profilefieldbox">
+                <div class="profilebox">
+                     <i class="fa fa-user-tie profile-image"></i>
+                </div>
+                <p class="profiledata mb-0">Ajay Kumar</p>
+            </li>
+            <!-- <li onclick="page1()" href="#" class="fieldbox align-items-center">
+                <i class="fa fa-gg-circle logo"></i>
+                <p class="profiledata mb-0 ml-2">Loginpage1</p>
+                <i class="fa fa-chevron-right arrow"></i>
+                </i>
+            </li> -->
+            <a href="#" onclick="page1()" class="fieldbox align-items-center">
+                <i class="fa fa-gg-circle ecommerce-logo"></i>
+                <p class="profiledata mb-0">Loginpage1</p>
+                <i class="fa fa-chevron-right arrow"></i>
+            </a>
+            <a href="#" onclick="page2()" href="#" class="fieldbox align-items-center">
+                <i class="fa fa-cart-plus ecommerce-logo"></i>
+                <p class="profiledata mb-0">Loginpage2</p>
+                <i class="fa fa-chevron-right arrow"></i>
+            </a>
+            <a href="#" onclick="signupform()"  class="fieldbox align-items-center">
+                <i class="fa fa-gg-circle ecommerce-logo"></i>
+                <p class="profiledata mb-0">Signupform</p>
+                <i class="fa fa-chevron-right arrow"></i>
+            </a>
+            <a href="#" onclick="dashboard()" href="#" class="fieldbox align-items-center">
+                <i class="fa fa-paste ecommerce-logo"></i>
+                <p class="profiledata mb-0 ">Dashboard</p>
+                <i class="fa fa-chevron-right arrow"></i>
+            </a>
+            <a href="#" onclick="validations()" href="#" class="fieldbox align-items-center">
+                <i class="fa fa-paste ecommerce-logo"></i>
+                <p class="profiledata mb-0 ml-2">Validation form</p>
+                <i class="fa fa-chevron-right arrow"></i>
+            </a>
+        </div>
+        <div class="page-content"> 
+            <div class="horizontal-menu"> 
+              <div class="content">  
+                <div class="horizontal-menu-left">
+                    <a href="" class="leftbox">
+                        <span class="menu-highlight">  
+                             <i class="fa fa-bars slider-logo"></i>
+                         </span>
+                         <span class="menu-highlight">   
+                             <i class="fa fa-envelope slider-logo"></i>
+                        </span>    
+                     </a>
+                </div>
+                <div class="horizontal-menu-right">
+                    <!-- <div class="right">
+                        <input type="text" placeholder="Search" class="search">
+                        <i class="fa fa-search search-image"></i>
+                    </div> -->
+
+                    <a class="menu-imagebox">
+                        <i class="fa fa-user-tie menu-image"></i>
+                        <a href="" class="data">Ajay</a>
+                        <span class="menu-highlight">
+                            <i class="fa fa-chevron-down menu-arrow"></i>
+                        </span>
+                     </a>   
+                </div>
+              </div>  
+            </div> 
+            <div class="pagecontent-height">
+                <section id="loginpage1" class="hide">
+                    <div class="loginpage1-card">
+                        <div class="img">
+                            <img src="/images/login image.jpg" class="loginpage1-image" />
+                        </div>
+                        <div class="loginpage1-logincard">
+                            <div>
+                                <div class="loginpage1-details">
+                                    <div class="loginpage1-group">
+                                        <h4 class="loginpage1-sub-heading">Welcome back</h4>
+                                        <h1 class="loginpage1-heading">Login to your account</h1>
+                                    </div>
+                    
+                                    <div class="loginpage1-group">
+                                        <p class="loginpage1-data">Email</p>
+                                        <input type="text" placeholder="adc.123@gmail.com" class="loginpage1-inputbox" />
+                                    </div>
+                    
+                                    <div class="loginpage1-group">
+                                        <p class="loginpage1-data">Password</p>
+                                        <input type="password" placeholder="password" class="loginpage1-inputbox" />
+                                    </div>
+                    
+                                    <div class="loginpage1-remember">
+                                        <input type="radio" class="loginpage1-radio" id="radio">
+                                        <label for="radio" class="loginpage1-remembertext">Remember me</label>
+                                        <a href=" " class="loginpage1-forgot">Forgot password?</a>
+                                    </div>
+                    
+                                    <button class="btn-login" type="submit">Login now</button>
+                                    <!-- <button type="submit">Log in</button> -->
+                    
+                                    <button class="google">
+                                        <div class="loginpage1-sign-in">
+                                            <img src="/images/google-g-icon.jpg" class="sign-in-logo">
+                                            <p class="sign-in-text mb-0">Or sign-in with google</p>
+                                        </div>
+                                    </button>
+                                </div>
+                    
+                                
+                                    <p class="loginpage1-end">Dont have an account?
+                                        <a href="" class="loginpage1-highlight">Join free today</a>
+                                    </p>
+                            </div>
+                
+                        </div>
+                    </div>
+                </section>
+
+                <section id="loginpage2" class="hide">
+                    <div class="page2-maincard">
+                        <div class="page2-card">
+                            <div class="page2-imagecard"> 
+                                 <img src="https://img.freepik.com/free-vector/young-male-freelancer-worker-desk-using-laptop_24877-70831.jpg?w=740" 
+                                      class="page2-image"/>
+                                 <a href="" class="page2-paragraph">Create an account</a>     
+                            </div>
+                            <div class="page2-details">
+                              <div class="page2-detailscard">
+                                  <h1 class="page2-heading">Log In</h1>
+                                  <div class="page2-usernamecontainer mb-0">
+                                      <img src="/images/usericon.jpg" class="page2-usericon"/>
+                                      <input type="text" placeholder="Your Name" class="page2-inputusername"/>
+                                      <hr class="page2-line mt-0 mb-0">
+                                  </div>
+                                  <div class="page2-passwordsection">
+                                      <img src="/images/lock_icon.png" class="page2-usericon"/>
+                                      <input type="password" placeholder="Password" class="page2-inputusername"/>
+                                      <hr class="page2-line mt-0 mb-0">
+                                  </div>
+                                  <div class="group mt-3 ml-2 align-items-center">
+                                      <input type="checkbox" id="check" class="page2-checkbox">
+                                      <label for="check" class="page2-remember ml-1 mb-0">Remember me</label>
+                                  </div>
+                                  <div>
+                                      <button class="page2-submit">Log In</button>
+                                  </div>
+                                  <div class="page2-bottom">
+                                      <div>
+                                          <a href="" class="page2-bottomdata">Or login with</a>
+                                      </div>    
+                                      <div>
+                                          <img src="/images/fb-icon.jpg" class="page2-fblogo"/>
+                                      </div>
+                                      <div>
+                                           <img src="/images/twitter.png" class="page2-twitterlogo"/>
+                                      </div>
+                                      <div>
+                                           <img src="/images/google-icon.png" class="page2-google">
+                                      </div>
+                                  </div>
+                              </div>
+                            </div>    
+                        </div>   
+                      </div>
+
+                </section>
+
+                <section id="signupform" class="hide">
+                <div class="signup-maincard">
+                   <div class="signup-card">
+                        <h1 class="signup-heading">Sign Up Form</h1>
+                        <div class="formgroup">
+                           <div class="signup-databox">
+                                <label class="signup-data">Name<label>
+                            </div>      
+                            <input type="text" placeholder="username" class="signup-inputbox"/>
+                        </div>
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                <label class="signup-data">Password</label>
+                            </div>      
+                            <input type="password"  class="signup-inputbox"/>
+                        </div>    
+                        <p class="signup-maxlength">max 16 characters</p>
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                <label class="signup-data">Confirm Password</label>
+                            </div>      
+                            <input type="password"  placeholder="Re-type password" class="signup-inputbox"/>
+                        </div>
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                <label class="signup-data">Gender</label>
+                            </div>      
+                            <input type="radio" id="gender" name="gender" class="signup-radiobox">
+                            <label for="gender" class="signup-datatext">Male</label>
+                            <input type="radio" id="gender" name="gender" class="signup-radiobox">
+                            <label for="gender" class="signup-datatext">Female</label>
+                        </div>
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                <label class="signup-data">DOB</label>
+                            </div>      
+                            <input type="date" id="birthday" name="birthday" class="signup-inputbox">
+                        </div>
+            
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                <label class="signup-data">Photo</label>
+                            </div>      
+                            <input type="file" placeholder="No file chosen" class="signup-photobox">
+                        </div>
+                        <div class="signup-address">
+                            <div class="signup-databox">
+                                <label class="signup-data">Address</label>
+                            </div>      
+                            <textarea class="signup-addressbox" placeholder="default text"></textarea>
+                        </div>
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                <label class="signup-data">Country</label>
+                            </div>      
+                            <select class="signup-country">
+                                <option>India</option>
+                                <option>SriLanka</option>
+                                <option>Germany</option>
+                            </select>
+                        </div>
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                 <label class="signup-data">Mobile Number</label>
+                             </div>      
+                             <input type="text" placeholder="Mobile Number" class="signup-inputbox"/>
+                         </div>
+                         <div class="formgroup">
+                            <div class="signup-databox">
+                                 <label class="signup-data">Email Id</label>
+                             </div>      
+                             <input type="Email" placeholder="user@domain.com" class="signup-inputbox"/>
+                         </div>
+                         <div class="signup-address">
+                            <div class="signup-databox">
+                                <label class="signup-data">Languages Known</label>
+                            </div>      
+                            <select class="signup-languages" multiple>
+                                <option>Telugu</option>
+                                <option>English</option>
+                                <option>Hindi</option>
+                            </select>
+                        </div>
+                        <div class="formgroup">
+                            <div class="signup-databox">
+                                 <label class="signup-data">Check the box</label</label>
+                             </div> 
+                             <div class="signup-check">     
+                                <input type="checkbox" id="check">
+                            </div>
+                             <label for="check" class="signup-checklabel">I accept the criteria</label>
+                         </div>
+                        <button class="signup-btn-submit">Submit</button>
+                   </div>
+                </div>
+                </section>
+
+                <section id="dashboard" class="hide">
+                    <div class="logocard-group">
+                        <div class="logocard-heading">
+                            <h3>Cards</h3>
+                        </div>
+                        <div class="logocard">
+                            <div class="single-logocard mb-0">
+                                <i class="fa fa-instagram cardlogo mb-0"></i>
+                                <h1 class="logo-heading mb-0">Instagram</h1>
+                                <p class="logo-paragraph mb-0">
+                                    A simple, fun & creative way to capture, 
+                                    edit & share photos, videos & messages with friends & family.
+                                </p>
+                                <a href="" class="logo-link p-0">Learn more</a>
+                            </div>
+                            <div class="single-logocard mb-0">
+                                <i class="fa fa-twitter cardlogo mb-0"></i>
+                                <h1 class="logo-heading mb-0">Twitter</h1>
+                                <p class="logo-paragraph mb-0 ">
+                                    A simple, fun & creative way to capture, 
+                                    edit & share photos, videos & messages with friends & family.
+                                </p>
+                                <a href="" class="logo-link p-0">Learn more</a>
+                            </div>
+                            <div class="single-logocard mb-0 p-0">
+                                <i class="fa fa-facebook-f cardlogo mb-0"></i>
+                                <h1 class="logo-heading mb-0">Facebook</h1>
+                                <p class="logo-paragraph mb-0">
+                                    A simple, fun & creative way to capture, 
+                                    edit & share photos, videos & messages with friends & family.
+                                </p>
+                                <a href="" class="logo-link p-0">Learn more</a>
+                            </div>
+                        </div>
+
+                        <div class="bottomcard">
+                            <div class="bottom-logocard">
+                                <img src="/images/man.png" class="bottom-image pb-0"/>
+                                <h1 class="bottom-heading mb-0 pt-50">John Taylor</h1>
+                                <P class="bottom-paragraph mb-0">Marketing</P>
+                                <p class="logo-paragraph mb-0">
+                                    A simple, fun & creative way to capture, 
+                                    edit & share photos, videos & messages with friends & family.
+                                </p>
+                                <div class="bottom">
+                                    <i class="fa fa-twitter bottomcard-logo"></i>
+                                    <i class="fa fa-facebook-f bottomcard-logo"></i>
+                                    <i class="fa fa-instagram bottomcard-logo"></i>
+                                </div>
+                            </div>
+                            <div class="bottom-logocard">
+                                <img src="/images/profile.png" class="bottom-image pb-0"/>
+                                <h1 class="bottom-heading mb-0 mt-50">Mike Harry</h1>
+                                <P class="bottom-paragraph mb-0">Marketing</P>
+                                <p class="logo-paragraph mb-0">
+                                    A simple, fun & creative way to capture, 
+                                    edit & share photos, videos & messages with friends & family.
+                                </p>
+                                <div class="bottom">
+                                    <i class="fa fa-twitter bottomcard-logo"></i>
+                                    <i class="fa fa-facebook-f bottomcard-logo"></i>
+                                    <i class="fa fa-instagram bottomcard-logo"></i>
+                                </div>
+                            </div>
+                            <div class="bottom-logocard">
+                                <img src="/images/image.png" class="bottom-image pb-0"/>
+                                <h1 class="bottom-heading mb-0 pt-50">Williams</h1>
+                                <P class="bottom-paragraph mb-0">Marketing</P>
+                                <p class="logo-paragraph mb-0">
+                                    A simple, fun & creative way to capture, 
+                                    edit & share photos, videos & messages with friends & family.
+                                </p>
+                                <div class="bottom">
+                                    <i class="fa fa-twitter bottomcard-logo"></i>
+                                    <i class="fa fa-facebook-f bottomcard-logo"></i>
+                                    <i class="fa fa-instagram bottomcard-logo"></i>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </section>
+
+                <section id="validations_form" class="hide">
+                    <div class="bg-container m-auto">
+                        <div class="container w-50 p-3">
+                            <h4 class="main-heading mt-2">Signup form</h4>
+                            <form>
+                                <div class="form-group">
+                                  <label for="firstName">First Name</label>
+                                  <input type="text" class="form-control" id="firstName" placeholder="firstname">
+                                </div>
+                                <p class="display-text" id="error_firstName"></p>
+                                <div class="form-group">
+                                  <label for="date">Date</label>
+                                  <input type="text" class="form-control" id="date" placeholder="dd/mm/yyyy">
+                                </div>
+                                <p class="display-text" id="error_date"></p>
+                                <div class="form-group">
+                                  <label for="email">Email</label>
+                                  <input type="text" class="form-control" id="email" placeholder="abc@gmail.com">
+                                </div>
+                                <p class="display-text" id="error_email"></p>
+                                <div class="form-group">
+                                  <label for="password">Password</label>
+                                  <input type="password" class="form-control" id="password" placeholder="enter password">
+                                </div>
+                                <p class="display-text" id="error_password"></p>
+                                <div class="form-group">
+                                  <label for="pancard">PAN Card</label>
+                                  <input type="text" class="form-control" id="pancard" placeholder="ABCD1234A">
+                                </div>
+                                <p class="display-text" id="error_pancard"></p>
+                                <div class="form-group">
+                                  <label for="mobile">Mobile Number</label>
+                                  <input type="text" class="form-control" id="mobile" placeholder="+91xxxxxxxxxx">
+                                </div>
+                                <p class="display-text" id="error_mobile"></p>
+                                <div class="form-group">
+                                  <label for="address">Address</label>
+                                  <input type="text" class="form-control" id="address" placeholder="address">
+                                </div>
+                                <p class="display-text" id="error_address"></p>
+                                <div class="form-group">
+                                  <label for="pincode">PinCode</label>
+                                  <input type="text" class="form-control" id="pincode" placeholder="xxxxxx">
+                                </div>
+                                <p class="display-text" id="error_pincode"></p>
+                                <div class="form-group">
+                                  <label for="url">URL</label>
+                                  <input type="text" class="form-control" id="url" placeholder="www.abc.com">
+                                </div>
+                                <p class="display-text" id="error_url"></p>
+                                <div class="form-group">
+                                  <label for="number">Number</label>
+                                  <input type="text" class="form-control" id="number" placeholder="123">
+                                </div>
+                                <p class="display-text" id="error_number"></p>
+                                
+                                <button class="btn btn-primary" onclick="validate_details()" type="button">Submit</button>
+                              </form>
+                        </div>
+                    </div>
+                </section>
+             </div>
+        </div>  
+    </section>
+
+</body>
+</html>
